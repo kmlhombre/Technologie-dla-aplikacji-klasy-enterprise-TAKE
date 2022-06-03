@@ -1,3 +1,17 @@
 /JavaServer Faces (JSF)/JSFLab/target/
 /PrimeFaces/PrimeFaces/target/
 /PrimeFaces/Requests/target/
+/PrimeFaces/MDBLab/nbproject/private/
+/PrimeFaces/MDBLab/MDBLab-war/nbproject/private/
+/PrimeFaces/MDBLab/MDBLab-ejb/nbproject/private/
+/PrimeFaces/MDBLab/MDBLab-ejb/build/
+/Requests/Requests/target/
+/MDBLab/MDBLab/MDBLab-ejb/build/
+/MDBLab/MDBLab/MDBLab-ejb/nbproject/private/
+/MDBLab/MDBLab/MDBLab-war/nbproject/private/
+/MDBLab/MDBLab/nbproject/private/
+/JSF + EJB + JPA + CDI + BV/Requests/target/
+/Message-Driven Beans/MDBLab/MDBLab-ejb/build/
+/Message-Driven Beans/MDBLab/MDBLab-ejb/nbproject/private/
+/Message-Driven Beans/MDBLab/MDBLab-war/nbproject/private/
+/Message-Driven Beans/MDBLab/nbproject/private/
