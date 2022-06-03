@@ -2,8 +2,8 @@
 1. Serwlety Java, JSP, JSTL (11.03) - DONE
 2. JavaServer Faces (JSF) (18.03) - DONE
 3. PrimeFaces (25.03) - DONE
-4. JSF + EJB + JPA + CDI + BV (01.04)
-5. Message-Driven Beans (08.04)
+4. JSF + EJB + JPA + CDI + BV (01.04) - DONE
+5. Message-Driven Beans (08.04) - DONE
 6. Spring (22.04)
 7. Web Services (REST): JAX-RS (29.04)
 8. ASP.NET MVC + Entity Framework (Code First) (06.05)
