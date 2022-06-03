@@ -9,4 +9,4 @@
 8. ASP.NET MVC + Entity Framework (Code First) (06.05)
 9. Web Services (REST): ASP.NET Web API (13.05)
 10. ASP.NET Web API, Ajax (20.05)
-11. 11./12. Aplikacja SPA: Angular + .NET Core Web API (27.05+03.06) 
+11. Aplikacja SPA: Angular + .NET Core Web API (27.05+03.06) 
