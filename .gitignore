@@ -22,3 +22,5 @@
 /Message-Driven Beans/MDBLab/dist/
 /MDBLab/MDBLab-ejb/nbproject/private/
 /MDBLab/MDBLab-war/nbproject/private/
+/Web Services (REST) JAX-RS/Complaints/target/
+/Message-Driven Beans/ComplaintsClient/target/
