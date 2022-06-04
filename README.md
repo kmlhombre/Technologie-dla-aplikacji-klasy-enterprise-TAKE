@@ -7,6 +7,6 @@
 6. Spring - TODO (Zadanie samodzielne)
 7. Web Services (REST): JAX-RS - TODO (Testy + Ostatnie zadanie klient)
 8. ASP.NET MVC + Entity Framework (Code First) - DONE
-9. Web Services (REST): ASP.NET Web API
+9. Web Services (REST): ASP.NET Web API - TODO Błąd z tworzeniem kontrolera
 10. ASP.NET Web API, Ajax 
 11. Aplikacja SPA: Angular + .NET Core Web API 
