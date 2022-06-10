@@ -1,4 +1,4 @@
-## Status DONE 7/11
+## Status DONE 7/12
 # Technologie-dla-aplikacji-klasy-enterprise-TAKE
 1. Serwlety Java, JSP, JSTL - DONE
 2. JavaServer Faces (JSF) - DONE
@@ -10,4 +10,4 @@
 8. ASP.NET MVC + Entity Framework (Code First) - DONE
 9. Web Services (REST): ASP.NET Web API - TODO Błąd z tworzeniem kontrolera
 10. ASP.NET Web API, Ajax 
-11. Aplikacja SPA: Angular + .NET Core Web API 
+11. 12. Aplikacja SPA: Angular + .NET Core Web API 
