@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "kA7F916wNuwoYcJwFXsMiu64KIZaZICcEfU350mf5pE=",
+  "Source": "WebApiAjax",
+  "BasePath": "_content/WebApiAjax",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiAjax\\wwwroot",
+      "Source": "WebApiAjax",
+      "ContentRoot": "D:\\Technologie-dla-aplikacji-klasy-enterprise-TAKE\\ASP.NET Web API, Ajax\\WebApiAjax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Technologie-dla-aplikacji-klasy-enterprise-TAKE\\ASP.NET Web API, Ajax\\WebApiAjax\\WebApiAjax\\wwwroot\\index.html",
+      "SourceId": "WebApiAjax",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Technologie-dla-aplikacji-klasy-enterprise-TAKE\\ASP.NET Web API, Ajax\\WebApiAjax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

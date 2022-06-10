@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#calc_jq").click(function () {
+                var x = document.getElementById('x').value;
+                var y = document.getElementById('y').value;
+                $.ajax({
+                    method: "GET",
+                    url: "/math",
+                    data: {"x": x, "y": y},
+                    success: function (data) {
+                        $('#sum').text(data.sum);
+                        $('#difference').text(data.difference);
+                        $('#product').text(data.product);
+                        $('#quotient').text(data.quotient);
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function vanilla_clicked() {
+            var x = document.getElementById('x').value;
+            var y = document.getElementById('y').value;
+            var sum = document.getElementById('sum');
+            var difference = document.getElementById('difference');
+            var product = document.getElementById('product');
+            var quotient = document.getElementById('quotient');
+            var xhttp = new XMLHttpRequest();
+            xhttp.open('GET', '/math?x=' + x + '&y=' + y, true);
+            xhttp.send()
+            xhttp.onload = function () {
+                if (xhttp.status == 200) {
+                    var json = JSON.parse(xhttp.responseText);
+                    sum.innerHTML = json.sum;
+                    difference.innerHTML = json.difference;
+                    product.innerHTML = json.product;
+                    quotient.innerHTML = json.quotient;
+                }
+            }
+        }
+    </script>
+    <div>
+        <h1>Calculations</h1>
+        <form>
+            x = <input type="text" id="x" />
+            y = <input type="text" id="y" />
+            <input type="button" id="calc_jq" value="Call API (jQuery)" />
+            <input type="button" id="calc_vjs" value="Call API (vanilla JS)" onclick="vanilla_clicked()"/>
+        </form>
+        x + y = <span id="sum"></span><br />
+        x - y = <span id="difference"></span><br />
+        x * y = <span id="product"></span><br />
+        x / y = <span id="quotient"></span><br />
+    </div>
+</body>
+</html>
