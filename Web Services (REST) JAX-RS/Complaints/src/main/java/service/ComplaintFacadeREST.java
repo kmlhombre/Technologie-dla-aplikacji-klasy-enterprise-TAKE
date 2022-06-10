@@ -39,10 +39,11 @@ public class ComplaintFacadeREST extends AbstractFacade<Complaint> {
     @GET
     @Path("{id}/status")
     @Produces(MediaType.TEXT_PLAIN)
-    public String checkStatus(Long id) {
+    public String checkStatus(@PathParam("id") Long id) {
         return super.find(id).getStatus();
     }
-
+    
+    //http://localhost:8080/Complaints/resources/complaints
     @POST
     @Override
     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
@@ -56,20 +57,21 @@ public class ComplaintFacadeREST extends AbstractFacade<Complaint> {
     public void edit(@PathParam("id") Long id, Complaint entity) {
         super.edit(entity);
     }
-
+    
+    // http://localhost:8080/Complaints/resources/complaints/154
     @DELETE
     @Path("{id}")
     public void remove(@PathParam("id") Long id) {
         super.remove(super.find(id));
     }
-
+    
     @GET
     @Path("{id}")
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Complaint find(@PathParam("id") Long id) {
         return super.find(id);
     }
-
+    
     @GET
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public List<Complaint> findAll(@QueryParam("status") String status) {
