@@ -1,3 +1,4 @@
+## Status DONE 7/11
 # Technologie-dla-aplikacji-klasy-enterprise-TAKE
 1. Serwlety Java, JSP, JSTL - DONE
 2. JavaServer Faces (JSF) - DONE
