@@ -33,6 +33,7 @@
     <th>Number of guests</th>
     <th>Apartment</th>
     <th>Apartment capacity</th>
+    <th>Cancel</th>
   </tr>
   </thead>
   <tbody>
@@ -46,6 +47,12 @@
     <td th:text="${b.numGuests}"></td>
     <td th:text="${b.apartment.name}"></td>
     <td th:text="${b.apartment.capacity}"></td>
+    <td>
+      <form th:action="@{bookings/delete}" method="POST">
+        <input type="hidden" name="booking_id" th:value="${b.id}"/>
+        <input type="submit" value="Cancel"/>
+      </form>
+    </td>
   </tr>
   </tbody>
 </table>
