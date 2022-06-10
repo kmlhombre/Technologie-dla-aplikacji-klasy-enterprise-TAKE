@@ -1,4 +1,4 @@
-## Status DONE 9/12
+## Status DONE 10/12
 # Technologie-dla-aplikacji-klasy-enterprise-TAKE
 ## DONE
 1. Serwlety Java, JSP, JSTL - DONE
